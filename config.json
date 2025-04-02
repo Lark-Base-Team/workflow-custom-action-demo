@@ -1,0 +1,12 @@
+{
+    "authorizations": [
+        [
+            "123",
+            "123"
+        ]
+    ],
+    "actionId": "rmb-usd-rate",
+    "args": {
+        "account": 1
+    }
+}

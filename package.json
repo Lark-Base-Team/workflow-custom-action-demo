@@ -1,0 +1,19 @@
+{
+  "name": "action-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lark-base-open-cli test:action",
+    "build": "lark-base-open-cli build:action",
+    "pack": "lark-base-open-cli pack:action"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lark-base-open/cli": "1.0.1-alpha.2"
+  },
+  "dependencies": {
+    "@lark-base-open/faas-sdk": "1.0.1-alpha.1"
+  }
+}

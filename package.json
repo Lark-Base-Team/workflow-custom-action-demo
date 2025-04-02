@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lark-base-open-cli test:action",
-    "build": "lark-base-open-cli build:action",
-    "pack": "lark-base-open-cli pack:action"
+    "start": "lark-base-open-cli start:field",
+    "build": "lark-base-open-cli build:field",
+    "pack": "lark-base-open-cli pack:field"
   },
   "author": "",
   "license": "ISC",

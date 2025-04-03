@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lark-base-open-cli test:action",
+    "dev": "lark-base-open-cli dev:action",
     "build": "lark-base-open-cli build:action",
     "pack": "lark-base-open-cli pack:action"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@lark-base-open/cli": "1.0.1-alpha.2"
+    "@lark-base-open/cli": "1.0.1-alpha.3"
   },
   "dependencies": {
-    "@lark-base-open/faas-sdk": "1.0.1-alpha.1"
+    "@lark-base-open/faas-sdk": "1.0.1-alpha.3"
   }
 }

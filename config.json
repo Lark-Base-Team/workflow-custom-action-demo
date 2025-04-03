@@ -1,9 +1,8 @@
 {
-    "actionId": "rmb-usd-rate",
-    "args": {
-        "account": 1
-    },
-    "context": {
-        "timeZone": "Asia/Shanghai"
-    }
+    "authorizations": [
+        {
+            "username": "123",
+            "password": "123"
+        }
+    ]
 }

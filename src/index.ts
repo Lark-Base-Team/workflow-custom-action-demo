@@ -4,10 +4,13 @@ import { basekit, t, ActionComponent, ActionCode, ActionResultType } from '@lark
 basekit.addDomainList(['api.exchangerate-api.com']);
 
 basekit.addAction({
+  // 自定义节点的唯一标识
   id: 'rmb-usd-rate',
+  // 自定义节点的名字
   name: t('name'),
+  // 自定义节点的描述
   desc: t('desc'),
-  // 定义捷径的i18n语言资源
+  // 自定义节点的i18n语言资源
   i18n: {
     messages: {
       'zh-CN': {
@@ -33,7 +36,7 @@ basekit.addAction({
       },
     }
   },
-  // 定义捷径的入参
+  // 自定义节点的入参
   formItems: [
     {
       key: 'account',
@@ -45,7 +48,7 @@ basekit.addAction({
       }
     },
   ],
-  // 定义捷径的返回结果类型
+  // 自定义节点的返回结果类型
   resultType: {
     type: ActionResultType.Object,
     extra: {
@@ -63,7 +66,8 @@ basekit.addAction({
       ],
     },
   },
-  // formItemParams 为运行时传入的字段参数，对应字段配置里的 formItems （如引用的依赖字段）
+  // 自定义节点的运行逻辑
+  // formItemParams 为运行时传入的自定义节点配置参数值，对应配置里的 formItems
   execute: async (formItemParams: { account: number }, context) => {
     const { account = 0 } = formItemParams;
     /** 为方便查看日志，使用此方法替代console.log */
